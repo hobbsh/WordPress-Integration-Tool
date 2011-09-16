@@ -2,5 +2,13 @@ WordPress Integration Tool - version 1.0.0
 
 The purpose of this tool is to make it easier for someone to integrate a WordPress blog into their existing site. It will basically end up creating a template based on the HTML structure of the given URL. Since HTML is irregular, additional user input is required to make sure the right structure is obtained and written to the template files.
 
-Perl Dependencies:
+Perl Module Dependencies:
 
+CGI
+HTML::TreeBuilder
+LWP::Simple
+HTML::Element
+HTML::TagParser
+Socket
+HTML::Entities
+DBI()
